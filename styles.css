@@ -1,0 +1,137 @@
+.container {
+             
+    margin :10px; 
+    opacity:0.8;
+    border-radius:0.5;
+    border-color:aquamarine;
+    width:500px;
+    height:550px;
+}
+.grid-container
+         {
+            display:grid;
+            grid-template-columns:auto auto ;
+            border-width:2mm;
+            border-color:aqua;
+            border-radius:1mm;
+            background-color:blue;
+            padding:10px ; 
+            width:1000px;
+         } 
+         .grid-item
+         {
+           background-color:cyan;
+           text-align: center;
+           height:25px;
+           font-size:20px;
+           width:100px;
+           border-radius: 1mm;
+           border-width:3cm;
+           border-bottom: 2px;
+           width:504px;
+           align-content:center;
+           align-self:center; 
+         }  
+
+
+.topnav {
+     overflow: hidden;
+     background-color: black;
+     position: fixed;
+     top: 0;
+     width: 100%;
+       }
+
+.topnav a {
+    float: left;
+   color: #f2f2f2;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 17px;
+}
+
+ .topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  }
+
+.topnav a.active
+ {
+    background-color: #04AA6D;
+     color: white;
+ }
+input
+{
+opacity:200;
+border-radius:0.5;
+font-family:Times New Roman;
+}
+body
+{
+opacity:0.5;
+
+}  
+input[type=text], select {
+width:100px;
+height:20px;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+
+input[type=submit] {
+width: 100px;
+height:20px;
+background-color: #4CAF50;
+color: white;
+/* padding: 14px 20px;
+margin: 8px 0; */
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: blue;
+    }   
+    input[type=submit]:focus {
+        background-color:purple;
+        }   
+.intro{
+    display:inline-block;
+    width:250px;
+    height:200px;
+    text-align: left;
+    align-self:center;
+    color: green;
+    font:helvetica;
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+    margin-inline-start: 5px;
+    margin-inline-end: 5px;
+}
+html{
+    scroll-behavior: smooth;
+   }
+
+
+            
+.flex-container 
+         {
+         display: flex;
+        background-color: Blue;
+        }
+        .flex-container div {
+          background-color: #f1f1f1;
+          margin: 20px;
+        padding: 30px;
+        font-size: 40px;
+        }
+
+        .flex-container div:hover {
+            background-color: rgb(25, 149, 70);
+            color: black;
+            }
